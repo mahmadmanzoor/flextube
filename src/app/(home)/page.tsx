@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       {" "}
       <Image src="/logo.svg" alt="logo" width={100} height={100} />
-      <p className="text-xl font-semibold tracking-tight">Vidflow</p>
+      <p className="text-xl font-semibold tracking-tight">FlexTube</p>
     </div>
   );
 }
