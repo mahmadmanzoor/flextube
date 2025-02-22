@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FlexTube - Fullstack Video Streaming Platform
+
+A modern YouTube clone built with Next.js 15, React 19, tRPC, PostgreSQL, and AI-powered features.
+
+![Project Image](https://github.com/yourusername/flextube/blob/main/public/thumbnail.png)
+
+## Features
+
+- 🎥 **Advanced video player** with quality controls
+- 🎬 **Real-time video processing** powered by Mux
+- 📝 **Automatic video transcription** for accessibility and SEO
+- 🖼️ **Smart thumbnail generation** using AI
+- 🤖 **AI-powered title and description generation**
+- 📊 **Creator Studio** with advanced metrics and insights
+- 🗂️ **Custom playlist management** for users
+- 📱 **Fully responsive design** across all devices
+- 🔄 **Multiple content feeds** for diverse recommendations
+- 💬 **Interactive comment system** with real-time updates
+- 👍 **Like and subscription system** to support creators
+- 🎯 **Watch history tracking** for personalized content suggestions
+- 🔐 **Secure authentication system**
+- 📦 **Module-based architecture** for scalability
+- 🗄️ **PostgreSQL with DrizzleORM** for efficient data management
+- 🚀 **Built with Next.js 15 & React 19** for modern web performance
+- 🔄 **tRPC for type-safe APIs**
+- 💅 **Styled using TailwindCSS & ShadcnUI**
 
 ## Getting Started
 
-First, run the development server:
+To get started with this project, follow these steps:
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- Node.js (>= 18.0.0)
+- PostgreSQL (for local development)
+- Mux account for video processing
+- OpenAI API key for AI-powered features
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/flextube.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd flextube
+   ```
+3. Install the dependencies using Bun:
+   ```bash
+   bun install
+   ```
+4. Copy the `.env.example` file to `.env`:
+   ```bash
+   cp .env.example .env
+   ```
+5. Fill in the necessary environment variables:
+   - PostgreSQL connection string
+   - Mux API credentials
+   - OpenAI API key for AI-powered features
+
+### Usage
+
+Start the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+bun run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Access the application at `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Testing
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Run tests to ensure functionality:
 
-## Learn More
+```bash
+bun run test
+```
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Roadmap
 
-## Deploy on Vercel
+- [ ] Enhance AI-powered recommendations
+- [ ] Implement monetization features for creators
+- [ ] Add multi-language support
+- [ ] Improve UI with additional themes
+- [ ] Optimize performance with caching and background jobs
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Feel free to contribute or suggest new features!
