@@ -2,8 +2,6 @@
 
 A modern YouTube clone built with Next.js 15, React 19, tRPC, PostgreSQL, and AI-powered features.
 
-![Project Image](https://github.com/yourusername/flextube/blob/main/public/thumbnail.png)
-
 ## Features
 
 - 🎥 **Advanced video player** with quality controls
@@ -42,7 +40,7 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/flextube.git
+   git clone https://github.com/mahmadmanzoor/flextube.git
    ```
 2. Navigate to the project folder:
    ```bash
