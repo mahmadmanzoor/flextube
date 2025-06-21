@@ -7,21 +7,21 @@ import { AuthButton } from "@/modules/auth/ui/components/auth-button";
 export const HomeNavbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 flex h-16 items-center bg-white px-2 pr-5">
-      <div className="flex items-center gap-4 w-full">
-        <div className="flex items-center flex-shrink-0">
+      <div className="flex w-full items-center justify-between gap-4">
+        <div className="flex flex-shrink-0 items-center">
           <SidebarTrigger />
           <Link href="/">
-            <div className="flex items-center p-4 gap-1">
+            <div className="flex items-center gap-1 p-4">
               <Image src="/logo.svg" alt="logo" width={32} height={32} />
               <p className="text-xl font-semibold tracking-tight">FlexTube</p>
             </div>
           </Link>
         </div>
         {/* Search bar */}
-        <div className="flex-1 justify-center max-w[720px] mx-auto">
+        <div className="mx-auto flex w-full max-w-[720px] justify-center">
           <SearchInput />
         </div>
-        <div className="flex-shrink-0 items-center flex gap-4">
+        <div className="flex flex-shrink-0 items-center gap-4">
           <AuthButton />
         </div>
       </div>
